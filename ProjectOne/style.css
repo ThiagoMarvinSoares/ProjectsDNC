@@ -15,14 +15,13 @@ header {
 .navBar {
     width: 100%;
     height: 100%;
-    background-color: #696969;
+    background-color: #303030;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 11px;
     max-width: auto;
     border: none;
-    background-color: #696969;
 }
 ul a {
     padding: 0px 6px;
@@ -47,7 +46,7 @@ a {
 }
 
 main {
-    background-image: linear-gradient(#3590F3 15%, #696969 35%);
+    background-image: linear-gradient(#3590F3 15%, #303030 35%);
     display: flex;
     flex-direction: column;
     padding: 2em;
@@ -70,6 +69,7 @@ h1 {
 
 input {
     border-radius: 8px;
+    box-shadow: none;
 }
 
 .mainText {
@@ -108,6 +108,54 @@ input {
 }
 
 footer {
-    background-color: #696969;
+    background-color: #3590f3;
     border-top: 2px solid black;
+}
+
+.footerEle {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.footerEle   {
+    font-size: 10px;
+    padding: 0 4em;
+    margin: 1em 1em;
+}
+
+.leftColumn , .centerColumn{
+    padding: 0 45px 0 0;
+}
+
+.leftColumn li , .centerColumn li{
+    list-style: none;
+}
+
+.rightColumn {
+    font-size: 8px;
+}
+
+.leftColumn ul , .centerColumn ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h2 {
+    background-color: #303030;
+    color: white;
+    margin: 1em 0;
+    font-size: 13px;
+}
+
+.rightColumn {
+    margin: 1em 0;
+    font-size: 10px;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
 }
