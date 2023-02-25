@@ -15,6 +15,7 @@ body {
 
 h1 {
     font-size: 54px;
+    font-weight: 700;
 }
 
 a {
@@ -23,7 +24,9 @@ a {
 }
 
 header img {
-    max-width: 12%;
+    max-width: 20%;
+    max-width: 20%;
+    margin: 0px 0 0 106px;
 }
 
 .navBar {
@@ -35,7 +38,7 @@ header img {
 }
 
 .leftNavBar i{
-    padding: 0em 1em;
+    padding: 1em 1em;
 }
 
 .rightNavBar a{
@@ -100,10 +103,10 @@ button {
     margin: 2em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .leftNavBar i{
         padding: 0em 1em;
-        font-size: 0.6em;
+        font-size: 0.4em;
     }
 
     .rightNavBar a{
@@ -111,4 +114,15 @@ button {
         font-size: 0.4em;
     }
     
+    header img {
+        max-width: 20%;
+        margin: 8px 0 0 25px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        padding: 3em 0 0 0;
+        width: 60%;
+    }
 }
