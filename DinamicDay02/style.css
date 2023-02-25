@@ -103,6 +103,10 @@ button {
     margin: 2em;
 }
 
+p {
+    align-self: center;
+}
+
 @media only screen and (max-width: 700px) {
     .leftNavBar i{
         padding: 0em 1em;
