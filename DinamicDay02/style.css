@@ -93,9 +93,21 @@ button {
     margin: 2em;
 }
 
-.loginBtnP, p{
+.loginBtnP{
     width: 60%;
     align-self: center;
     margin: 2em;
 }
 
+@media only screen and (max-width: 600px) {
+    .leftNavBar i{
+        padding: 0em 1em;
+        font-size: 0.6em;
+    }
+
+    .rightNavBar a{
+        padding: 0em 1em;
+        font-size: 0.4em;
+    }
+    
+}
