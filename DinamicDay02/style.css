@@ -84,7 +84,8 @@ input {
 }
 
 button {
-    background-color: #A18CD1;
+    background-image: linear-gradient(to right,#A18CD1
+    , #FBC2EB);
 }
 
 .loginBtn {
