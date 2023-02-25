@@ -5,14 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HBO MAX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,300;1,500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div id="navBar">
-            <i class="fa-solid fa-bars-staggered"></i>
-            <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="navBar">
+            <div class="leftNavBar">
+                <i class="fa-solid fa-bars-staggered"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <img src="images/hbologo.png" alt="">
+            <div class="rightNavBar">
+                <a href="">Assinar</a>
+                <a href="">Entrar</a>
+            </div>
         </div>
     </header>
+    <main>
+        <div class="mainWrap">
+            <div class="topContent">
+                <h1>Entrar</h1>
+                <p>Voce tem uma conta HBO Max?</p>
+            </div>    
+            <div class="form">
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="Digite seu email">
+                <label for="password">Senha</label>
+                <input type="password" placeholder="Digite Sua Senha">
+                <button class="loginBtn">Entrar</button>
+                <p>Voce acessa a HBO Max por um provedor de TV, de internet ou celular ?</p>
+                <button class="loginBtnP">Entrar como provedor</button>
+            </div>
+        </div>
+    </main>
 </body>
 <script src="https://kit.fontawesome.com/eb42e85976.js" crossorigin="anonymous"></script>
 </html>
