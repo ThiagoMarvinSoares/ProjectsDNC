@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #252424;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+header {
+    position: absolute;
+    background-color: #CA7900;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.left-nav {
+    display: flex;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+li {
+    list-style: none;
+    margin-right: 30px;
+    
+}
+
+h1{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+img {
+    width: 50px;
+    margin-top: -44px;
+  }
+
+p {
+    text-align: center;
+    width: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.centerCnt {
+    background-color: #CA7900;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    line-height: 52px;
+    font-weight: 400;
+    border-radius: 14px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10%;
+}
+
+.btnYN {
+    background-color: #CA7900;
+    border: 5px solid white;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#enter {
+    background-color: #CA7900;
+    border: 5px solid white;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 10%;
+}
+
+.btnEnter {
+    display: flex;
+    justify-content: center;
+}
