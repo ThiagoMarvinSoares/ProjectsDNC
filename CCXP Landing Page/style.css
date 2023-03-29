@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #FFD900;
+    padding: 2em;
+    height: 118px;
+    width: auto;
+}
+
+header img {
+    width: 202px;
+    height: 63px;
+    position: absolute;
+    padding-top: 1.5%;
+    
+}
+
+#container {
+    display: flex;
+}
+
+#left-side {
+    background-color: #514988;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 802px;
+    height: 694px;
+    text-align: center;
+}
+
+#heroh1 h1{
+    padding-bottom: 30px;
+}
+
+#heroh1 {
+    /* position: absolute; */
+width: 676px;
+height: 149px;
+left: 58px;
+top: 149px;
+}
+
+#mainText {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    margin-top: 2em;
+}
+
+#left-side h1 {
+    color: #FFD900;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+#left-side h2, p {
+    color: white;
+    padding-bottom: 80px;
+}
+
+#right-aside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#right-aside h3{
+    color: #E33881;
+    margin-bottom: 30px;
+    font-size: 30px;
+    height: 700;
+    padding-top: 100px;
+    position: absolute;
+}
+
+#right-aside video {
+width: 880px;
+height: 510px;
+left: 817px;
+top: 284px;
+}
+
+
+.timer {
+    color: #514988;
+    font-size: 2em;
+    display: flex;
+}
+
+.timing {
+    width: 220px;
+    font-size: 70px;
+    height: 175px;
+}
+
+h1 {
+    color: #FFD900;
+    font-size: 27px;
+}
+
+#footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footerContainer h1, #days {
+    padding: 1em 0 0.5em 1em;
+    width: 850px;
+    font-size: 27px;
+}
+
+
+
+#days {
+    align-items: center;
+    text-align: center;
+}
+
+#button{
+    padding: 150px;
+    padding-right: 120px;
+}
+
+button {
+    background-color: #514988;
+    color: white;
+    padding: 1em;
+    border: none;
+    width: 596px;
+    height: 148px;
+    border-radius: 20px;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ticket{
+    width: 154px;
+    height: 204px;
+}
+
+#garanta:hover {
+    background-color: #FFD900;
+}
